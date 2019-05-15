@@ -12,6 +12,6 @@ public static class Constants
     /// <summary>
     /// some UI text
     /// </summary>
-    public static readonly string StatusTapToStart = "Press Any Button to Start!";
+    public static readonly string StatusTapToStart = "Press Any Button to Start! Use arrow keys to move!";
     public static readonly string StatusDeadTapToStart = "Ouch... Press Space to Restart!";
 }
