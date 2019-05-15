@@ -19,7 +19,7 @@ public class StuffSpawner : MonoBehaviour
         //first, let's decide whether we'll place an obstacle
         //beware, Random.Range is exclusive for integers but inclusive for floats
         //http://answers.unity3d.com/questions/585266/question-about-randomrange.html
-        bool placeObstacle = Random.Range(0, 2) == 0; //50% chances
+        bool placeObstacle = Random.Range(0, 1) == 0;
         int obstacleIndex = -1;
         if (placeObstacle)
         {

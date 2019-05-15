@@ -113,6 +113,7 @@ ModelImporter:
     7400002: Take 001 (1)
     9500000: //RootNode
     13700000: polySurface2
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -128,12 +129,28 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'spine1_hiResSpine4' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'leftArm1_HiResUpperArmTwist'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine1_hiResHips'
+      has translation animation that will be discarded.\n\t'spine1_hiResHips' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'leftLeg1_HiResUpperLegTwist'
+      has translation animation that will be discarded.\n\t'leftLeg1_HiResUpperLegTwist'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'leftLeg1_HiResLowerLeg'
+      has translation animation that will be discarded.\n\t'leftLeg1_HiResLowerLegTwist'
+      has translation animation that will be discarded.\n\t'leftLeg1_HiResFoot' has
+      translation animation that will be discarded.\n\t'rightLeg1_HiResUpperLegTwist'
+      has translation animation that will be discarded.\n\t'rightLeg1_HiResUpperLegTwist'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'rightLeg1_HiResLowerLeg'
+      has translation animation that will be discarded.\n\t'rightLeg1_HiResLowerLegTwist'
+      has translation animation that will be discarded.\n\t'rightLeg1_HiResFoot' has
+      translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -208,7 +225,267 @@ ModelImporter:
   humanDescription:
     serializedVersion: 2
     human: []
-    skeleton: []
+    skeleton:
+    - name: FoxIdle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: FoxIdle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TSM3WorldJoint
+      parentName: FoxIdle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine1_hiResSpine1
+      parentName: TSM3WorldJoint
+      position: {x: -0, y: 0.12082512, z: -0.0067175934}
+      rotation: {x: 0.024900984, y: 0.024895623, z: -0.70659214, w: 0.70674443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine1_hiResSpine2
+      parentName: spine1_hiResSpine1
+      position: {x: -0.035992015, y: -1.4398205e-18, z: -6.661338e-18}
+      rotation: {x: 9.682928e-14, y: -0.01026503, z: -0.00021538032, w: 0.9999473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine1_hiResSpine3
+      parentName: spine1_hiResSpine2
+      position: {x: -0.03599222, y: 6.158268e-19, z: -3.9968027e-17}
+      rotation: {x: -9.088214e-14, y: -0.028553922, z: 0.00021881337, w: 0.99959224}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine1_hiResSpine4
+      parentName: spine1_hiResSpine3
+      position: {x: -0.03268462, y: -4.510281e-19, z: -6.869505e-17}
+      rotation: {x: -6.45551e-14, y: -0.00934749, z: -0.00022239749, w: 0.9999563}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine1_hiResSpine5
+      parentName: spine1_hiResSpine4
+      position: {x: -0.032684434, y: 1.8648276e-18, z: -8.0491165e-17}
+      rotation: {x: -0.0000006199774, y: 0.0046738093, z: 0.00011120318, w: 0.9999891}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head1_neck
+      parentName: spine1_hiResSpine5
+      position: {x: -0.10244654, y: 1.1437782e-17, z: -0.007826391}
+      rotation: {x: 0, y: 0.02835546, z: -0, w: 0.9995979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head1_head
+      parentName: head1_neck
+      position: {x: -0.13395377, y: 1.4947847e-17, z: 2.2204459e-17}
+      rotation: {x: 0, y: -0.007894341, z: -0, w: 0.9999688}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftArm1_HiResClavical
+      parentName: spine1_hiResSpine5
+      position: {x: -0.05892037, y: -0.03031741, z: -0.0022713335}
+      rotation: {x: 0.029314945, y: -0.022093775, z: 0.75444955, w: 0.6553308}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftArm1_HiResUpperArm
+      parentName: leftArm1_HiResClavical
+      position: {x: -0.037543274, y: 3.5527136e-17, z: 1.110223e-18}
+      rotation: {x: 0.011413095, y: -0.09979827, z: 0.48149145, w: 0.8706757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftArm1_HiResUpperArmTwist
+      parentName: leftArm1_HiResUpperArm
+      position: {x: -0.04181391, y: 0, z: 1.3322676e-17}
+      rotation: {x: 0.09049253, y: -0, z: -0, w: 0.9958972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftArm1_HiResLowerArm
+      parentName: leftArm1_HiResUpperArmTwist
+      position: {x: -0.04181391, y: 0, z: 4.4408918e-17}
+      rotation: {x: 0.08678661, y: 0.2820839, z: 0.025631648, w: 0.95511246}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftArm1_HiResLowerArmTwist
+      parentName: leftArm1_HiResLowerArm
+      position: {x: -0.041412782, y: -2.757575e-17, z: 2.5535128e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftArm1_HiResHand
+      parentName: leftArm1_HiResLowerArmTwist
+      position: {x: -0.041412782, y: 0, z: -3.4416914e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftArm1_HiResLowerArmStretch
+      parentName: leftArm1_HiResLowerArmTwist
+      position: {x: -0.033130225, y: 9.926167e-25, z: -1.3322676e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftArm1_HiResUpperArmStretch
+      parentName: leftArm1_HiResUpperArmTwist
+      position: {x: -0.03345113, y: 3.5527136e-17, z: 6.217249e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightArm1_HiResClavical
+      parentName: spine1_hiResSpine5
+      position: {x: -0.05892037, y: 0.03031741, z: -0.0022713335}
+      rotation: {x: 0.730558, y: 0.6818633, z: -0.03008552, w: 0.021032425}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightArm1_HiResUpperArm
+      parentName: rightArm1_HiResClavical
+      position: {x: 0.037543274, y: 3.5527136e-17, z: -5.5511148e-18}
+      rotation: {x: 0.010328856, y: -0.07630966, z: 0.5211845, w: 0.8499629}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightArm1_HiResUpperArmTwist
+      parentName: rightArm1_HiResUpperArm
+      position: {x: 0.04181391, y: 0, z: -8.881784e-18}
+      rotation: {x: 0.090055235, y: -0, z: -0, w: 0.9959368}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightArm1_HiResLowerArm
+      parentName: rightArm1_HiResUpperArmTwist
+      position: {x: 0.04181391, y: 3.5527136e-17, z: -8.881784e-18}
+      rotation: {x: 0.08738612, y: 0.24067646, z: 0.021762598, w: 0.9664186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightArm1_HiResLowerArmTwist
+      parentName: rightArm1_HiResLowerArm
+      position: {x: 0.041412782, y: -6.310289e-17, z: -2.0122791e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightArm1_HiResHand
+      parentName: rightArm1_HiResLowerArmTwist
+      position: {x: 0.041412782, y: 0, z: 2.928213e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightArm1_HiResLowerArmStretch
+      parentName: rightArm1_HiResLowerArmTwist
+      position: {x: 0.033130225, y: 9.926167e-25, z: 4.843348e-17}
+      rotation: {x: 0, y: -2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightArm1_HiResUpperArmStretch
+      parentName: rightArm1_HiResUpperArmTwist
+      position: {x: 0.03345113, y: 3.5527136e-17, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail1_Joint1
+      parentName: spine1_hiResSpine1
+      position: {x: -0.012056609, y: 0.0000025969007, z: -0.07595609}
+      rotation: {x: -0.30113658, y: 0.63977873, z: -0.6397138, w: -0.30127442}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail1_Joint2
+      parentName: tail1_Joint1
+      position: {x: -0.058123305, y: -1.7763568e-17, z: 9.134203e-19}
+      rotation: {x: 0, y: 0, z: 0.035866395, w: 0.9993566}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail1_Joint3
+      parentName: tail1_Joint2
+      position: {x: -0.058356654, y: -3.5527136e-17, z: -1.2205765e-17}
+      rotation: {x: 0, y: -0, z: -0.19344051, w: 0.981112}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail1_Joint4
+      parentName: tail1_Joint3
+      position: {x: -0.058190737, y: 3.5527136e-17, z: -9.6481255e-18}
+      rotation: {x: 0, y: -0, z: -0.100872844, w: 0.99489933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail1_Joint5
+      parentName: tail1_Joint4
+      position: {x: -0.05851273, y: 0, z: -7.077159e-18}
+      rotation: {x: 0, y: -0, z: -0.02463892, w: 0.99969643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail1_Joint6
+      parentName: tail1_Joint5
+      position: {x: -0.058477886, y: 3.5527136e-17, z: -7.095631e-18}
+      rotation: {x: 0, y: -0, z: -0.011284437, w: 0.99993634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail1_Joint7
+      parentName: tail1_Joint6
+      position: {x: -0.05848564, y: 4.4408918e-17, z: -9.055082e-18}
+      rotation: {x: 0, y: 0, z: 0.07567544, w: 0.99713254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail1_Joint8
+      parentName: tail1_Joint7
+      position: {x: -0.05846654, y: -3.5527136e-17, z: -1.4843033e-17}
+      rotation: {x: 0, y: 0, z: 0.0654146, w: 0.99785817}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail1_Joint9
+      parentName: tail1_Joint8
+      position: {x: -0.058486514, y: 3.5527136e-17, z: -1.5170563e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine1_hiResHips
+      parentName: spine1_hiResSpine1
+      position: {x: 0.011436547, y: -0.0000024633441, z: 0.00011740301}
+      rotation: {x: -0.003629685, y: -0.003628903, z: 0.70702136, w: 0.7071736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftLeg1_HiResUpperLeg
+      parentName: spine1_hiResHips
+      position: {x: -0.046767462, y: -0.02709694, z: 0.0049128416}
+      rotation: {x: -0.020971049, y: 0.06174534, z: 0.6905479, w: 0.72034115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftLeg1_HiResUpperLegTwist
+      parentName: leftLeg1_HiResUpperLeg
+      position: {x: -0.019700186, y: -8.881784e-18, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftLeg1_HiResLowerLeg
+      parentName: leftLeg1_HiResUpperLegTwist
+      position: {x: -0.019700186, y: -8.881784e-18, z: -7.216449e-18}
+      rotation: {x: 0, y: -0.0719669, z: -0, w: 0.997407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftLeg1_HiResLowerLegTwist
+      parentName: leftLeg1_HiResLowerLeg
+      position: {x: -0.0117634, y: 0, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftLeg1_HiResFoot
+      parentName: leftLeg1_HiResLowerLegTwist
+      position: {x: -0.0117634, y: 2.6645352e-17, z: -1.110223e-18}
+      rotation: {x: -0.03499446, y: 0.4932801, z: 0.0071048993, w: 0.8691373}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftLeg1_HiResToe
+      parentName: leftLeg1_HiResFoot
+      position: {x: -0.02310656, y: 8.881784e-18, z: 2.220446e-18}
+      rotation: {x: 0, y: 0.2105258, z: -0, w: 0.9775883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftLeg1_HiResLowerLegStretch
+      parentName: leftLeg1_HiResLowerLegTwist
+      position: {x: -0.009410721, y: 1.8123413e-16, z: 1.9984014e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leftLeg1_HiResUpperLegStretch
+      parentName: leftLeg1_HiResUpperLegTwist
+      position: {x: -0.015760148, y: -1.0203922e-17, z: -7.6882944e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightLeg1_HiResUpperLeg
+      parentName: spine1_hiResHips
+      position: {x: 0.04676746, y: -0.027096946, z: 0.0049128416}
+      rotation: {x: 0.7203412, y: -0.6905479, z: 0.061745472, w: 0.020971142}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightLeg1_HiResUpperLegTwist
+      parentName: rightLeg1_HiResUpperLeg
+      position: {x: 0.019700186, y: 0, z: 3.5316747e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightLeg1_HiResLowerLeg
+      parentName: rightLeg1_HiResUpperLegTwist
+      position: {x: 0.019700186, y: 8.881784e-18, z: 3.5301206e-14}
+      rotation: {x: 0, y: -0.07196717, z: -0, w: 0.997407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightLeg1_HiResLowerLegTwist
+      parentName: rightLeg1_HiResLowerLeg
+      position: {x: 0.0117634, y: -8.881784e-18, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightLeg1_HiResFoot
+      parentName: rightLeg1_HiResLowerLegTwist
+      position: {x: 0.0117634, y: 1.7763568e-17, z: 0}
+      rotation: {x: -0.034994468, y: 0.49328023, z: 0.007104901, w: 0.8691372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightLeg1_HiResToe
+      parentName: rightLeg1_HiResFoot
+      position: {x: 0.02310656, y: 0, z: 4.440892e-18}
+      rotation: {x: 0, y: 0.21052581, z: -0, w: 0.9775883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightLeg1_HiResLowerLegStretch
+      parentName: rightLeg1_HiResLowerLegTwist
+      position: {x: 0.009410721, y: 1.7235235e-16, z: 2.1094237e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rightLeg1_HiResUpperLegStretch
+      parentName: rightLeg1_HiResUpperLegTwist
+      position: {x: 0.015760148, y: 7.559646e-18, z: 3.5229872e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -218,7 +495,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2

@@ -49,7 +49,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
         switch (GameManager.Instance.GameState)
         {
             case GameState.Start:
-                if (Input.GetMouseButtonUp(0))
+                if (Input.anyKey)
                 {
                     anim.SetBool(Constants.AnimationStarted, true);
                     var instance = GameManager.Instance;
@@ -83,7 +83,8 @@ public class CharacterSidewaysMovement : MonoBehaviour
                 break;
             case GameState.Dead:
                 anim.SetBool(Constants.AnimationStarted, false);
-                if (Input.GetMouseButtonUp(0))
+                anim.SetBool(Constants.AnimationDead, true);
+                if (Input.GetKey(KeyCode.Space))
                 {
                     //restart
                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
